@@ -3,3 +3,7 @@
 pre-course
 .DS_Store
 *_tmp.ipynb
+
+# 가상환경
+.venv
+.uv
