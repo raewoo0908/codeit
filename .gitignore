@@ -1,5 +1,8 @@
-안내자료
-취업자료
+# 문서
+안내자료/
+취업자료/
+paper/
+
 pre-course
 .DS_Store
 *_tmp.ipynb
@@ -7,3 +10,7 @@ pre-course
 # 가상환경
 .venv
 .uv
+
+# 데이터셋
+/course/part2/computer_vision/workbook/data
+/course/part2/data/MNIST/raw
