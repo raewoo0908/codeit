@@ -1,0 +1,13 @@
+model,method,train_key,test_set,test_loss,test_acc
+AlexNet,baseline,cifar__hflip_rot,cifar,0.4956,0.831
+AlexNet,transfer,cifar__none,cifar,0.3847,0.8768
+AlexNet,finetune,cifar__none,cifar,0.3111,0.9122
+VGGNet,baseline,cifar__hflip_rot,cifar,0.4767,0.8365
+VGGNet,transfer,imagenet__hflip_rot,imagenet,0.3252,0.9039
+VGGNet,finetune,imagenet__hflip_rot,imagenet,0.1997,0.942
+GoogLeNet,baseline,cifar__hflip_rot,cifar,0.4157,0.8615
+GoogLeNet,transfer,imagenet__none,imagenet,0.4591,0.8434
+GoogLeNet,finetune,imagenet__none,imagenet,0.1806,0.9449
+ResNet,baseline,cifar__hflip_rot,cifar,0.5442,0.8138
+ResNet,transfer,cifar__none,cifar,0.2979,0.9
+ResNet,finetune,cifar__none,cifar,0.148,0.9577
